@@ -6,7 +6,7 @@
 import Spanish from '../src/components/Spanish.js'
 import English from '../src/components/English.js'
 
-import { Route, Switch } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 
 function App() {
     return (
