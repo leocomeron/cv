@@ -1,0 +1,92 @@
+body {
+    margin: 0%;
+    font-family: 'Helvetica, sans-serif';
+    background-color: #6d57ff;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1rem;
+    padding: 0px;
+    margin-block: 0.5rem;
+}
+
+.contenedor {
+    border: solid;
+    border-radius: 1%;
+    margin: 12rem;
+    margin-top: 4rem;
+    align-self: center
+}
+
+hr {
+    height: 1px;
+    background-color: #5f47fa;
+    border: none
+}
+
+.principal {
+    text-align: center;
+}
+
+.profilePic {
+    border-radius: 50%;
+    margin-top: 2rem;
+}
+
+.iconGit {
+    max-width: 8rem;
+    max-height: 8rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    border: 0.15rem solid white
+}
+
+.iconGit:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .9);
+    border-radius: 50%;
+}
+
+.iconBig {
+    max-width: 8rem;
+    max-height: 8rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+}
+
+.iconBig:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, .9);
+    border-radius: 50%;
+}
+
+.skills {
+    margin: auto;
+}
+
+.iconSkill {
+    max-width: 4rem;
+    max-height: 4rem;
+    border-radius: 50%;
+}
+
+.skillsDiv {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.academic {}
+
+pre {
+    font-size: 1rem;
+}
