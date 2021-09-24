@@ -7,19 +7,19 @@ import IconMongo from '../../src/IconMongo.png'
 // import IconJS from '../../src/IconJS'
 
 import classes from '../components/Spanish.module.css'
-
+import { useState } from 'react'
 
 function Spanish() {
+    var [lenguaje, setLenguaje] = useState(true)
+    console.log(lenguaje)
     return (
-
-
         <div className={classes.contenedor}>
             <img src={FotoPerfil} alt="" className={classes.profilePic} />
-            {/* <div>
-                <a href="/en">
-                    <button>Switch Lenguaje</button>
-                </a>
-            </div> */}
+            <div>
+                {/* <a href="/en"> */}
+                <button onClick={() => setLenguaje(lenguaje = lenguaje ? false : true)}>Switch Lenguaje</button>
+                {/* </a> */}
+            </div>
             <h1>LEANDRO COMERÓN</h1>
             <h2>Desarrollador Full Stack - Ingeniero Químico</h2>
             <h3>Fecha de nacimiento: 08/04/1992 - 29 años</h3>
@@ -40,6 +40,7 @@ function Spanish() {
                     </a>
                 </div>
             </div>
+            <hr></hr>
             <div className={classes.academic}>
                 <h2>Skills</h2>
                 <div className={classes.skills}>
@@ -76,18 +77,21 @@ function Spanish() {
                         <pre>Express</pre>
                     </div>
                 </div>
+
+                <hr></hr>
+
                 <h2>Historia académica</h2>
-                <h3 className={classes.intitute}>Universidad Nacional de Córdoba</h3>
-                <h3 className={classes.date}>2010 - 2015</h3>
-                <h3 className={classes.degree}>Ingeniero químico</h3>
+                <h3>Universidad Nacional de Córdoba</h3>
+                <h3>2010 - 2015</h3>
+                <h3>Ingeniero químico</h3>
                 <hr></hr>
-                <h3 className={classes.intitute}>Udemy</h3>
-                <h3 className={classes.date}>2020 - 2021</h3>
-                <h3 className={classes.degree}>Web Developer Bootcamp</h3>
+                <h3>Udemy</h3>
+                <h3>2020 - 2021</h3>
+                <h3>Web Developer Bootcamp</h3>
                 <hr></hr>
-                <h3 className={classes.intitute}>Udemy</h3>
-                <h3 className={classes.date}>May 2021 - Jul 2021</h3>
-                <h3 className={classes.degree}>React: The Complete Guide</h3>
+                <h3>Udemy</h3>
+                <h3>May 2021 - Jul 2021</h3>
+                <h3>React: The Complete Guide</h3>
                 <hr></hr>
                 <h2>Lenguajes</h2>
                 <h3>Inglés</h3>
@@ -101,7 +105,7 @@ function Spanish() {
 
                 <h2>Experiencia Profesional</h2>
 
-                <h2>Desarrollador Web Freelancer - 2021 a la actualidad</h2>
+                <h2>Desarrollador Web Freelancer - Ene 2021 a la actualidad</h2>
 
                 <h4>Implementar el desarrollo de buenas prácticas (responsive, UX).</h4>
                 <h4>Manejo de conexiones asíncronas con Ajax y/o Fetch.</h4>
@@ -111,7 +115,7 @@ function Spanish() {
                 <h4>Autenticación y manejo de sesiones y usuarios.</h4>
                 <h4>Integración con otras plataformas mediante api REST.</h4>
 
-                <h3>Portfolio:</h3>
+                <h3>Portfolio: </h3>
 
                 <div>
                     <a href="https://github.com/leocomeron/estetica" target="_blank" rel="noreferrer">
@@ -136,7 +140,7 @@ function Spanish() {
                 <hr></hr>
                 <h2>ARCOR-Bagley S.A.- Supervisor de Producción - 2017 a 2019</h2>
                 <h4>Liderazgo de grupos de trabajo para cumplimiento de objetivos productivos.</h4>
-                <h4>Liderazgo de grupos de proyectos de mejora.</h4>
+                <h4>Liderazgo de grupos de proyectos de mejora continua.</h4>
                 <h4>Proyecto aumento de productividad de línea de producción Traviata.</h4>
                 <h4>Proyecto interdiciplinario para disminución de reclamos de calidad en producto Traviata.</h4>
 

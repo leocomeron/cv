@@ -8,7 +8,10 @@ import English from '../src/components/English.js'
 
 import { Route } from 'react-router-dom'
 
+// VER SI TRAIGO LA VARIABLE LENGUAJE TRUE O FALSE Y PONER UN IF ACA
+
 function App() {
+
     return (
         <div>
             <Route path='/' exact>
