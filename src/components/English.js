@@ -1,6 +1,11 @@
 import FotoPerfil from '../../src/FotoPerfil.jpg'
 import IconReact from '../../src/IconReact.png'
 import IconMongo from '../../src/IconMongo.png'
+// import IconNode from '../../src/IconNode'
+// import IconExpress from '../../src/IconExpress'
+// import IconCSS from '../../src/IconCSS'
+// import IconJS from '../../src/IconJS'
+
 import classes from '../components/Spanish.module.css'
 
 
@@ -12,7 +17,7 @@ function English() {
                 <img src={FotoPerfil} alt="" className={classes.profilePic} />
                 <div>
                     <a href="/">
-                        <button>Switch Lenguaje</button>
+                        <button>Cambiar idioma</button>
                     </a>
                 </div>
                 <h1>LEANDRO COMERÓN</h1>

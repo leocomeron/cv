@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     font-family: 'Helvetica, sans-serif';
-    background-color: #6d57ff;
+    background-color: #2738bd;
 }
 
 h1 {
@@ -25,13 +25,14 @@ h4 {
 .contenedor {
     border: solid;
     border-radius: 1%;
-    margin: 8rem;
+    margin: 8em;
     margin-top: 4rem;
-    align-self: center
+    text-align: center;
+    display: block
 }
 
 button {
-    background-color: #3f29d3;
+    background-color: #1e07af;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -43,7 +44,7 @@ button {
     box-sizing: border-box;
     border-radius: 1em;
     transition: all 0.2s;
-    cursor: pointer
+    cursor: pointer;
 }
 
 button:hover {
