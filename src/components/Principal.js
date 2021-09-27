@@ -41,7 +41,7 @@ function Spanish() {
                         </a>
                     </div>
                 </div>
-                <hr></hr>
+                <hr className={classes.hrSmall}></hr>
                 <div className={classes.academic}>
                     <h2>Skills</h2>
                     <div className={classes.skills}>
@@ -85,11 +85,11 @@ function Spanish() {
                     <h3>Universidad Nacional de Córdoba</h3>
                     <h3>2010 - 2015</h3>
                     <h3>Ingeniero químico</h3>
-                    <hr></hr>
+                    <hr className={classes.hrSmall}></hr>
                     <h3>Udemy</h3>
                     <h3>2020 - 2021</h3>
                     <h3>Web Developer Bootcamp</h3>
-                    <hr></hr>
+                    <hr className={classes.hrSmall}></hr>
                     <h3>Udemy</h3>
                     <h3>May 2021 - Jul 2021</h3>
                     <h3>React: The Complete Guide</h3>
@@ -129,7 +129,7 @@ function Spanish() {
                         </a>
                     </div>
 
-                    <hr></hr>
+                    <hr className={classes.hrSmall}></hr>
                     <h2>COCA-COLA Supervisor de Producción  - 2019 a la actualidad</h2>
                     <h4>Liderazgo de grupos de trabajo para cumplimiento de objetivos productivos.</h4>
                     <h4>Gestión de trabajo con proveedores.</h4>
@@ -138,7 +138,7 @@ function Spanish() {
                     <h4>Proyecto reducción de gramos de plastico en botellas.</h4>
                     <h4>Proyecto bebida con alcohol Topo Chico.</h4>
 
-                    <hr></hr>
+                    <hr className={classes.hrSmall}></hr>
                     <h2>ARCOR-Bagley S.A.- Supervisor de Producción - 2017 a 2019</h2>
                     <h4>Liderazgo de grupos de trabajo para cumplimiento de objetivos productivos.</h4>
                     <h4>Liderazgo de grupos de proyectos de mejora continua.</h4>
@@ -181,6 +181,8 @@ function Spanish() {
                             </a>
                         </div>
                     </div>
+
+                    <hr className={classes.hrSmall}></hr>
                     <div className={classes.academic}>
                         <h2>Skills</h2>
                         <div className={classes.skills}>
@@ -217,15 +219,17 @@ function Spanish() {
                                 <pre>Express</pre>
                             </div>
                         </div>
+
+                        <hr></hr>
                         <h2>Academic History</h2>
                         <h3>Universidad Nacional de Córdoba</h3>
                         <h3>2010 - 2015</h3>
                         <h3>Chimestry Engineer</h3>
-                        <hr></hr>
+                        <hr className={classes.hrSmall}></hr>
                         <h3>Udemy</h3>
                         <h3>2020 - 2021</h3>
                         <h3>Web Developer Bootcamp</h3>
-                        <hr></hr>
+                        <hr className={classes.hrSmall}></hr>
                         <h3>Udemy</h3>
                         <h3>May 2021 - Jul 2021</h3>
                         <h3>React: The Complete Guide</h3>
@@ -266,7 +270,7 @@ function Spanish() {
                         </div>
 
 
-                        <hr></hr>
+                        <hr className={classes.hrSmall}></hr>
                         <h2>COCA-COLA Production supervisor  - 2019 to now</h2>
                         <h4>Leadership of work groups to fulfill production objectives.</h4>
                         <h4>Management of work with suppliers.</h4>
@@ -275,7 +279,7 @@ function Spanish() {
                         <h4>Project to reduce grams of plastic in bottles.</h4>
                         <h4>Topo Chico alcoholic drink project.</h4>
 
-                        <hr></hr>
+                        <hr className={classes.hrSmall}></hr>
                         <h2>ARCOR-Bagley S.A.- Production supervisor - 2017 to 2019</h2>
                         <h4>Leadership of work groups to fulfill production objectives.</h4>
                         <h4>Leadership of improvement projects groups.</h4>
