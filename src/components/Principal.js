@@ -125,7 +125,7 @@ function Spanish() {
                     </div>
                     <div>
                         <a href="https://github.com/leocomeron/YelpCamp" target="_blank" rel="noreferrer">
-                            <button>YelpCamp (Bootcamp proyect)</button>
+                            <button>YelpCamp (Bootcamp project)</button>
                         </a>
                     </div>
 
@@ -163,7 +163,7 @@ function Spanish() {
                     </div>
                     <h1>LEANDRO COMERÓN</h1>
                     <h2>Full Stack Developer - Chemistry Engineer</h2>
-                    <h3>Birth date: Apr/08/1992 - 29 years</h3>
+                    <h3>Birth date: Apr/08/1992 - 29 years old</h3>
                     <h3>Argentina, Córdoba - Córdoba Capital</h3>
                     <h3>+54 9 3492 517831</h3>
                     <h3>leocomeron@gmail.com</h3>
@@ -236,17 +236,17 @@ function Spanish() {
                         <hr></hr>
                         <h2>Lenguajes</h2>
                         <h3>Inglés</h3>
-                        <h4>Profesional</h4>
-                        <h3>Español</h3>
-                        <h4>Nativo</h4>
-                        <h3>Italiano</h3>
-                        <h4>Intermedio</h4>
+                        <h4>Professional</h4>
+                        <h3>Spanish</h3>
+                        <h4>Native</h4>
+                        <h3>Italian</h3>
+                        <h4>Intermediate</h4>
 
                         <hr></hr>
 
-                        <h2>Experiencia Professional</h2>
+                        <h2>Professional Experience</h2>
 
-                        <h2>Freelance Web developer - 2021 to now</h2>
+                        <h2>Freelance Web developer - 2021 to date</h2>
 
                         <h4>Implement the development of good practices (responsive, UX).</h4>
                         <h4>Handling asynchronous connections with Ajax and / or Fetch.</h4>
@@ -271,7 +271,7 @@ function Spanish() {
 
 
                         <hr className={classes.hrSmall}></hr>
-                        <h2>COCA-COLA Production supervisor  - 2019 to now</h2>
+                        <h2>COCA-COLA Production supervisor  - 2019 to date</h2>
                         <h4>Leadership of work groups to fulfill production objectives.</h4>
                         <h4>Management of work with suppliers.</h4>
                         <h4>Participation in planning and execution of projects.</h4>
