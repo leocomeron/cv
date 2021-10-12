@@ -158,7 +158,7 @@ function Spanish() {
                     <img src={FotoPerfil} alt="" className={classes.profilePic} />
                     <div>
                         {/* <a href="/en"> */}
-                        <button onClick={() => setLenguaje(lenguaje = lenguaje ? false : true)}>Camiar idioma</button>
+                        <button onClick={() => setLenguaje(lenguaje = lenguaje ? false : true)}>Cambiar idioma</button>
                         {/* </a> */}
                     </div>
                     <h1>LEANDRO COMERÓN</h1>
@@ -265,7 +265,7 @@ function Spanish() {
                         </div>
                         <div>
                             <a href="https://github.com/leocomeron/YelpCamp" target="_blank" rel="noreferrer">
-                                <button>YelpCamp (Bootcamp proyect)</button>
+                                <button>YelpCamp (Bootcamp project)</button>
                             </a>
                         </div>
 
