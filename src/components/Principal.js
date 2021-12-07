@@ -3,7 +3,7 @@ import IconReact from "../images/IconReact.png";
 import IconMongo from "../images/IconMongo.png";
 import IconNext from "../images/IconNextJS.png";
 import IconTypescript from "../images/IconTypescript.png";
-import IconNode from "../images/IconNode.png";
+// import IconNode from "../images/IconNode.png";
 // import IconExpress from '../../src/images/IconExpress'
 // import IconCSS from '../../src/images/IconCSS'
 // import IconJS from '../../src/images/IconJS'
