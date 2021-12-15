@@ -9,6 +9,9 @@ body {
   font-family: "Helvetica, sans-serif";
   background-color: #4252c7;
 }
+div {
+  margin: 0.5rem;
+}
 
 h1 {
   font-size: 2.5rem;

@@ -8,10 +8,11 @@ import IconTypescript from "../images/IconTypescript.png";
 // import IconCSS from '../../src/images/IconCSS'
 // import IconJS from '../../src/images/IconJS'
 
+import Button from "@mui/material/Button";
 import classes from "../components/Principal.module.css";
 import { useState } from "react";
 
-function Spanish() {
+function Information() {
   var [lenguaje, setLenguaje] = useState(true);
   if (lenguaje) {
     return (
@@ -19,11 +20,12 @@ function Spanish() {
         <img src={FotoPerfil} alt="" className={classes.profilePic} />
         <div>
           {/* <a href="/en"> */}
-          <button
+          <Button
+            variant="contained"
             onClick={() => setLenguaje((lenguaje = lenguaje ? false : true))}
           >
             Switch Lenguaje
-          </button>
+          </Button>
           {/* </a> */}
         </div>
         <h1>LEANDRO COMERÓN</h1>
@@ -184,22 +186,24 @@ function Spanish() {
           <h3>Portfolio: </h3>
 
           <div>
-            <a
+            <Button
               href="https://github.com/leocomeron/estetica"
               target="_blank"
               rel="noreferrer"
+              variant="contained"
             >
-              <button>Estética Bell&Co</button>
-            </a>
+              Estética Bell&Co
+            </Button>
           </div>
           <div>
-            <a
+            <Button
               href="https://github.com/leocomeron/YelpCamp"
               target="_blank"
               rel="noreferrer"
+              variant="contained"
             >
-              <button>YelpCamp (Bootcamp project)</button>
-            </a>
+              YelpCamp (Bootcamp project)
+            </Button>
           </div>
 
           <hr className={classes.hrSmall}></hr>
@@ -238,11 +242,12 @@ function Spanish() {
           <img src={FotoPerfil} alt="" className={classes.profilePic} />
           <div>
             {/* <a href="/en"> */}
-            <button
+            <Button
+              variant="contained"
               onClick={() => setLenguaje((lenguaje = lenguaje ? false : true))}
             >
               Cambiar idioma
-            </button>
+            </Button>
             {/* </a> */}
           </div>
           <h1>LEANDRO COMERÓN</h1>
@@ -399,22 +404,24 @@ function Spanish() {
             <h3>Portfolio:</h3>
 
             <div>
-              <a
+              <Button
                 href="https://github.com/leocomeron/estetica"
                 target="_blank"
                 rel="noreferrer"
+                variant="contained"
               >
-                <button>Estética Bell&Co</button>
-              </a>
+                Beauty Center Bell&Co
+              </Button>
             </div>
             <div>
-              <a
+              <Button
                 href="https://github.com/leocomeron/YelpCamp"
                 target="_blank"
                 rel="noreferrer"
+                variant="contained"
               >
-                <button>YelpCamp (Bootcamp project)</button>
-              </a>
+                YelpCamp (Bootcamp project)
+              </Button>
             </div>
 
             <hr className={classes.hrSmall}></hr>
@@ -442,4 +449,4 @@ function Spanish() {
   }
 }
 
-export default Spanish;
+export default Information;
